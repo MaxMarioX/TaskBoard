@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    view:
+      prefix: "/WEB-INF/views/"
+      suffix: ".jsp"
+  datasource:
+    username: "admin"
+    password: "admin"
+    url: "jdbc:mysql://localhost:3306/taskboard"
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
